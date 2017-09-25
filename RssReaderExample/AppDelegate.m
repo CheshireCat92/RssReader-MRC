@@ -7,16 +7,25 @@
 //
 
 #import "AppDelegate.h"
+#import "RssTableViewController.h"
+#import "RssTableViewModel.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
 
+}
+@property  (nonatomic, strong) RssTableViewController *rssNewsScreen;
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+    RssTableViewModel *rssNewsScreenModel = [[RssTableViewModel alloc]init];
+    self.rssNewsScreen = [RssTableViewController initWithModel:rssNewsScreenModel];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:self.rssNewsScreen];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

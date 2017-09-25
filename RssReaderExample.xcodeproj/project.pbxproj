@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6845560F1F78187D008386AE /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 6845560E1F78187D008386AE /* Post.m */; };
+		684556121F781887008386AE /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 684556111F781887008386AE /* Channel.m */; };
+		6855F09E1F7851C600F0CE8B /* UIColor+mainColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855F09D1F7851C600F0CE8B /* UIColor+mainColors.m */; };
+		6855F0A21F7853D800F0CE8B /* RssWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855F0A11F7853D800F0CE8B /* RssWebViewController.m */; };
+		6855F0A51F78546F00F0CE8B /* RssWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6855F0A41F78546F00F0CE8B /* RssWebViewModel.m */; };
+		68A9BE031F771DE500076C3E /* RssTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9BE021F771DE500076C3E /* RssTableViewCell.m */; };
+		68A9BE061F771E0600076C3E /* RssTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A9BE051F771E0600076C3E /* RssTableViewCellModel.m */; };
 		68B923861F6FCCF400FD1C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B923851F6FCCF400FD1C48 /* main.m */; };
 		68B923891F6FCCF400FD1C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B923881F6FCCF400FD1C48 /* AppDelegate.m */; };
-		68B9238C1F6FCCF400FD1C48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B9238B1F6FCCF400FD1C48 /* ViewController.m */; };
-		68B9238F1F6FCCF400FD1C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B9238D1F6FCCF400FD1C48 /* Main.storyboard */; };
 		68B923921F6FCCF400FD1C48 /* RssReaderExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 68B923901F6FCCF400FD1C48 /* RssReaderExample.xcdatamodeld */; };
 		68B923941F6FCCF400FD1C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B923931F6FCCF400FD1C48 /* Assets.xcassets */; };
-		68B923971F6FCCF400FD1C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B923951F6FCCF400FD1C48 /* LaunchScreen.storyboard */; };
 		68B923A21F6FCCF400FD1C48 /* RssReaderExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B923A11F6FCCF400FD1C48 /* RssReaderExampleTests.m */; };
 		68B923AD1F6FCCF400FD1C48 /* RssReaderExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B923AC1F6FCCF400FD1C48 /* RssReaderExampleUITests.m */; };
+		839FA12C9C4F48DF74CAC058 /* RssTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FA4203F413DC53E2A2DEA /* RssTableViewController.m */; };
+		839FA9A405950E58CE363DC2 /* RssTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FA0F01FFFC1326644122A /* RssTableViewModel.m */; };
+		839FAEE1BA22DC3F09315366 /* RssTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 839FA0F01FFFC1326644122A /* RssTableViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,16 +43,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6845560D1F78187D008386AE /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		6845560E1F78187D008386AE /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		684556101F781887008386AE /* Channel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		684556111F781887008386AE /* Channel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		6855F09C1F7851C600F0CE8B /* UIColor+mainColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+mainColors.h"; sourceTree = "<group>"; };
+		6855F09D1F7851C600F0CE8B /* UIColor+mainColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+mainColors.m"; sourceTree = "<group>"; };
+		6855F0A01F7853D800F0CE8B /* RssWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssWebViewController.h; sourceTree = "<group>"; };
+		6855F0A11F7853D800F0CE8B /* RssWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssWebViewController.m; sourceTree = "<group>"; };
+		6855F0A31F78546F00F0CE8B /* RssWebViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssWebViewModel.h; sourceTree = "<group>"; };
+		6855F0A41F78546F00F0CE8B /* RssWebViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssWebViewModel.m; sourceTree = "<group>"; };
+		68A9BE011F771DE500076C3E /* RssTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssTableViewCell.h; sourceTree = "<group>"; };
+		68A9BE021F771DE500076C3E /* RssTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssTableViewCell.m; sourceTree = "<group>"; };
+		68A9BE041F771E0600076C3E /* RssTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RssTableViewCellModel.h; sourceTree = "<group>"; };
+		68A9BE051F771E0600076C3E /* RssTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssTableViewCellModel.m; sourceTree = "<group>"; };
 		68B923811F6FCCF400FD1C48 /* RssReaderExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssReaderExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B923851F6FCCF400FD1C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68B923871F6FCCF400FD1C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68B923881F6FCCF400FD1C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		68B9238A1F6FCCF400FD1C48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		68B9238B1F6FCCF400FD1C48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		68B9238E1F6FCCF400FD1C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		68B923911F6FCCF400FD1C48 /* RssReaderExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RssReaderExample.xcdatamodel; sourceTree = "<group>"; };
 		68B923931F6FCCF400FD1C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		68B923961F6FCCF400FD1C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68B923981F6FCCF400FD1C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68B9239D1F6FCCF400FD1C48 /* RssReaderExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RssReaderExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B923A11F6FCCF400FD1C48 /* RssReaderExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssReaderExampleTests.m; sourceTree = "<group>"; };
@@ -53,6 +70,10 @@
 		68B923A81F6FCCF400FD1C48 /* RssReaderExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RssReaderExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68B923AC1F6FCCF400FD1C48 /* RssReaderExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssReaderExampleUITests.m; sourceTree = "<group>"; };
 		68B923AE1F6FCCF400FD1C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839FA003B99F6E4EA1AFE9B9 /* RssTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssTableViewController.h; sourceTree = "<group>"; };
+		839FA0F01FFFC1326644122A /* RssTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssTableViewModel.m; sourceTree = "<group>"; };
+		839FA4203F413DC53E2A2DEA /* RssTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssTableViewController.m; sourceTree = "<group>"; };
+		839FA59B116258CFED800C2A /* RssTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssTableViewModel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +101,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		684556131F781890008386AE /* RssFeedModel */ = {
+			isa = PBXGroup;
+			children = (
+				6845560D1F78187D008386AE /* Post.h */,
+				6845560E1F78187D008386AE /* Post.m */,
+				684556101F781887008386AE /* Channel.h */,
+				684556111F781887008386AE /* Channel.m */,
+			);
+			path = RssFeedModel;
+			sourceTree = "<group>";
+		};
+		6855F09F1F7851D000F0CE8B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6855F09C1F7851C600F0CE8B /* UIColor+mainColors.h */,
+				6855F09D1F7851C600F0CE8B /* UIColor+mainColors.m */,
+			);
+			name = Categories;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		68B923781F6FCCF400FD1C48 = {
 			isa = PBXGroup;
 			children = (
@@ -105,14 +147,13 @@
 			children = (
 				68B923871F6FCCF400FD1C48 /* AppDelegate.h */,
 				68B923881F6FCCF400FD1C48 /* AppDelegate.m */,
-				68B9238A1F6FCCF400FD1C48 /* ViewController.h */,
-				68B9238B1F6FCCF400FD1C48 /* ViewController.m */,
-				68B9238D1F6FCCF400FD1C48 /* Main.storyboard */,
 				68B923931F6FCCF400FD1C48 /* Assets.xcassets */,
-				68B923951F6FCCF400FD1C48 /* LaunchScreen.storyboard */,
 				68B923981F6FCCF400FD1C48 /* Info.plist */,
 				68B923901F6FCCF400FD1C48 /* RssReaderExample.xcdatamodeld */,
 				68B923841F6FCCF400FD1C48 /* Supporting Files */,
+				839FA05FE8EBE2537AED8291 /* Views */,
+				839FA078F27C6EC16DFDE506 /* Models */,
+				6855F09F1F7851D000F0CE8B /* Categories */,
 			);
 			path = RssReaderExample;
 			sourceTree = "<group>";
@@ -141,6 +182,33 @@
 				68B923AE1F6FCCF400FD1C48 /* Info.plist */,
 			);
 			path = RssReaderExampleUITests;
+			sourceTree = "<group>";
+		};
+		839FA05FE8EBE2537AED8291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				839FA003B99F6E4EA1AFE9B9 /* RssTableViewController.h */,
+				839FA4203F413DC53E2A2DEA /* RssTableViewController.m */,
+				68A9BE011F771DE500076C3E /* RssTableViewCell.h */,
+				68A9BE021F771DE500076C3E /* RssTableViewCell.m */,
+				6855F0A01F7853D800F0CE8B /* RssWebViewController.h */,
+				6855F0A11F7853D800F0CE8B /* RssWebViewController.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		839FA078F27C6EC16DFDE506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				839FA59B116258CFED800C2A /* RssTableViewModel.h */,
+				839FA0F01FFFC1326644122A /* RssTableViewModel.m */,
+				6855F0A31F78546F00F0CE8B /* RssWebViewModel.h */,
+				6855F0A41F78546F00F0CE8B /* RssWebViewModel.m */,
+				68A9BE041F771E0600076C3E /* RssTableViewCellModel.h */,
+				68A9BE051F771E0600076C3E /* RssTableViewCellModel.m */,
+				684556131F781890008386AE /* RssFeedModel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68B923971F6FCCF400FD1C48 /* LaunchScreen.storyboard in Resources */,
 				68B923941F6FCCF400FD1C48 /* Assets.xcassets in Resources */,
-				68B9238F1F6FCCF400FD1C48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,10 +342,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6855F09E1F7851C600F0CE8B /* UIColor+mainColors.m in Sources */,
+				68A9BE061F771E0600076C3E /* RssTableViewCellModel.m in Sources */,
+				6855F0A21F7853D800F0CE8B /* RssWebViewController.m in Sources */,
 				68B923921F6FCCF400FD1C48 /* RssReaderExample.xcdatamodeld in Sources */,
-				68B9238C1F6FCCF400FD1C48 /* ViewController.m in Sources */,
 				68B923891F6FCCF400FD1C48 /* AppDelegate.m in Sources */,
 				68B923861F6FCCF400FD1C48 /* main.m in Sources */,
+				6845560F1F78187D008386AE /* Post.m in Sources */,
+				839FA12C9C4F48DF74CAC058 /* RssTableViewController.m in Sources */,
+				684556121F781887008386AE /* Channel.m in Sources */,
+				68A9BE031F771DE500076C3E /* RssTableViewCell.m in Sources */,
+				6855F0A51F78546F00F0CE8B /* RssWebViewModel.m in Sources */,
+				839FA9A405950E58CE363DC2 /* RssTableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B923A21F6FCCF400FD1C48 /* RssReaderExampleTests.m in Sources */,
+				839FAEE1BA22DC3F09315366 /* RssTableViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,25 +388,6 @@
 			targetProxy = 68B923A91F6FCCF400FD1C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		68B9238D1F6FCCF400FD1C48 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68B9238E1F6FCCF400FD1C48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		68B923951F6FCCF400FD1C48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68B923961F6FCCF400FD1C48 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		68B923AF1F6FCCF400FD1C48 /* Debug */ = {
@@ -430,7 +486,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RssReaderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kovalev.RssReaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +500,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RssReaderExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Kovalev.RssReaderExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +575,7 @@
 				68B923B31F6FCCF400FD1C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68B923B41F6FCCF400FD1C48 /* Build configuration list for PBXNativeTarget "RssReaderExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +584,7 @@
 				68B923B61F6FCCF400FD1C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68B923B71F6FCCF400FD1C48 /* Build configuration list for PBXNativeTarget "RssReaderExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +593,7 @@
 				68B923B91F6FCCF400FD1C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
